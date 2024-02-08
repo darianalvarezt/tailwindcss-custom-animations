@@ -1,0 +1,26 @@
+{
+  "name": "@darianalvarezt/tailwindcss-custom-animations",
+  "version": "0.0.2",
+  "description": "Tailwind css plugin to add custom animations to your website",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "Darian Alvarez Tamayo (@darianalvarezt)",
+  "license": "ISC",
+  "devDependencies": {
+    "@csstools/postcss-minify": "^1.1.0",
+    "postcss": "^8.4.35",
+    "standard": "^17.1.0",
+    "tailwindcss": "^3.4.1",
+    "vitest": "^1.2.2"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^3.0.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
